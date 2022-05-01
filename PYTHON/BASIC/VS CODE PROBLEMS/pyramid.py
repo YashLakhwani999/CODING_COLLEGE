@@ -1,0 +1,19 @@
+n=int(input())
+i=1
+while i<=n:
+    space=1
+    while space<=n-i:
+        print(" ", end="")
+        space=space+1
+    j=i
+    p=1
+    while p<=i:
+        print(j,end="")
+        j=j-1
+        p=p+1
+    k=1
+    while k<=i-1:
+        print(k+1,end="")
+        k=k+1
+    print()
+    i=i+1
